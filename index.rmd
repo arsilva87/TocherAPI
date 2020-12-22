@@ -1,0 +1,22 @@
+---
+title: "Tocher API"
+output: html_document
+runtime: shiny
+---
+
+
+Welcome to Tocher API 
+
+
+```{r}
+library(shiny)
+shinyApp(
+  ui = fluidPage(
+    numericInput("n", "n", 5),
+    verbatimTextOutput("clusters")
+  ),
+  server = function(input, output) {
+    output$clusters <- renderPrint( tocher( rnorm(input$n) ) )
+  }
+)
+```

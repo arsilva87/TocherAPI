@@ -1,0 +1,13 @@
+Package: TocherAPI
+Type: Package
+Title: Tocher Clustering API
+Version: 1.0
+Date: 2020-12-22
+Author: Anderson R da Silva
+Maintainer: Anderson R da Silva <anderson.silva@ifgoiano.edu.br>
+Description: Cluster objects or individuals using Tocher's method.
+License: GPL
+Imports:
+    biotools
+RoxygenNote: 7.1.1
+Remotes: r-pkgs/gh

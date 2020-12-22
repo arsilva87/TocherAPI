@@ -1,0 +1,11 @@
+name: "Tocher API"
+output_dir: "inst"
+output: 
+  html_document:
+    toc: false
+    theme: spacelab
+navbar:
+  title: "Tocher API"
+  left:
+    - text: "Home"
+      href: index.html
