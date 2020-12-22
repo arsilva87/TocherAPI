@@ -11,7 +11,7 @@
 
 
 
-<title>Tocher API</title>
+<title></title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -292,27 +292,16 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div class="fluid-row" id="section-header">
 
 
 
-<h1 class="title toc-ignore">Tocher API</h1>
 
 </div>
 
 
-<p>Welcome to Tocher API</p>
-<pre class="r"><code>library(shiny)
-shinyApp(
-  ui = fluidPage(
-    numericInput(&quot;n&quot;, &quot;n&quot;, 5),
-    verbatimTextOutput(&quot;clusters&quot;)
-  ),
-  server = function(input, output) {
-    output$clusters &lt;- renderPrint( tocher( rnorm(input$n) ) )
-  }
-)</code></pre>
-<div style="width: 100% ; height: 400px ; text-align: center; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;" class="muted well">Shiny applications not supported in static R Markdown documents</div>
+<p>Be welcome! Try it.</p>
+<iframe data-deferred-src="appf0e2bc1bfffb129fc44b45cae0c353c6/?w=&amp;__subapp__=1" width="100%" height="400" class="shiny-frame shiny-frame-deferred"></iframe>
 
 
 
@@ -336,7 +325,7 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function () {
-  window.buildTabsets("TOC");
+  window.buildTabsets("section-TOC");
 });
 
 $(document).ready(function () {
